@@ -1,0 +1,22 @@
+@keyframes skeleton-glow {
+  0% {
+    right: 100px;
+  }
+  50% {
+    right: -128px;
+  }
+  100% {
+    right: 100px;
+  }
+}
+
+.skeleton {
+  background-color: lightslategray;
+  width: 100%;
+}
+.skeleton::before {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  animation: skeleton-glow 1.25s infinite;
+}

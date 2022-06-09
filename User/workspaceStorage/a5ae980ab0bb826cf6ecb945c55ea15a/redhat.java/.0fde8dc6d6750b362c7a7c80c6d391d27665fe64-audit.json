@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "c:\\Users\\andres.sierra\\AppData\\Roaming\\Code\\User\\workspaceStorage\\a5ae980ab0bb826cf6ecb945c55ea15a\\redhat.java\\.0fde8dc6d6750b362c7a7c80c6d391d27665fe64-audit.json",
+    "files": [
+        {
+            "date": 1648335184961,
+            "name": "c:\\Users\\andres.sierra\\AppData\\Roaming\\Code\\User\\workspaceStorage\\a5ae980ab0bb826cf6ecb945c55ea15a\\redhat.java\\client.log.2022-03-26",
+            "hash": "441652156ad777ae72a26a9826e83d6a"
+        },
+        {
+            "date": 1648426573443,
+            "name": "c:\\Users\\andres.sierra\\AppData\\Roaming\\Code\\User\\workspaceStorage\\a5ae980ab0bb826cf6ecb945c55ea15a\\redhat.java\\client.log.2022-03-27",
+            "hash": "be15961f019b24f9f87bde174fb755b5"
+        }
+    ]
+}

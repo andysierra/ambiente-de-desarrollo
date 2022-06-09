@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50px 100px;
+}
+
+.grid div {
+  background-color: lightslategray;
+  padding: 20px;
+}
+.grid div:hover {
+  border: 3px dotted purple;
+}

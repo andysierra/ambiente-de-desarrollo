@@ -1,0 +1,12 @@
+#
+#Thu Mar 03 13:17:44 COT 2022
+derivedResources=.gradle;build;modules/build;modules/Ejercicio/build;modules/EjercicioPortlet/build;modules/Ejercicio/Ejercicio-api/build;modules/Ejercicio/Ejercicio-service/build
+linkedResources=
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+managedNatures=org.eclipse.jdt.core.javanature
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+buildScriptPath=build.gradle
+subprojectPaths=modules;modules/Ejercicio;modules/EjercicioPortlet;modules/Ejercicio/Ejercicio-api;modules/Ejercicio/Ejercicio-service
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
