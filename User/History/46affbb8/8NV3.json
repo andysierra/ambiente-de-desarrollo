@@ -94,6 +94,5 @@
     "editor.linkedEditing": true,
     "emmet.includeLanguages": {
       "javascript": "javascriptreact"
-    },
-    "window.zoomLevel": -1
+    }
 }

@@ -20,13 +20,13 @@
             "activityBarWidth": 0,
             "sideBarWidth": 0,
             "statusBarHeight": 22,
-            "windowBorder": false
+            "windowBorder": true
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/Users/andres.sierra/Desktop/andysierra/development/react/gif-expert-app",
-            "backupPath": "C:\\Users\\andres.sierra\\AppData\\Roaming\\Code\\Backups\\2a430a87f8bb75dfd7a29deb8882292d",
+            "folder": "file:///c%3A/Users/camil/Programacion/development-react/gif-expert-app",
+            "backupPath": "C:\\Users\\camil\\AppData\\Roaming\\Code\\Backups\\fd741066745856b248b73e26963169f7",
             "uiState": {
                 "mode": 0,
                 "x": 342,
@@ -37,5 +37,5 @@
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "C:\\Users\\andres.sierra\\Desktop\\andysierra\\development\\javascript"
+    "pickerWorkingDir": "C:\\Users\\camil\\Programacion\\development-react"
 }

@@ -1,5 +1,5 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-icons",
     "window.menuBarVisibility": "default",
     "workbench.startupEditor": "",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
@@ -94,6 +94,5 @@
     "editor.linkedEditing": true,
     "emmet.includeLanguages": {
       "javascript": "javascriptreact"
-    },
-    "window.zoomLevel": -1
+    }
 }

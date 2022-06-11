@@ -75,7 +75,7 @@
     "typescript.implementationsCodeLens.enabled": true,
     "javascript.referencesCodeLens.enabled": true,
     "workbench.editorAssociations": {
-      "*.ipynb": "jupyter.notebook.ipynb"
+        "*.ipynb": "jupyter.notebook.ipynb"
     },
     "javascript.referencesCodeLens.showOnAllFunctions": true,
     "security.workspace.trust.untrustedFiles": "open",
@@ -84,7 +84,7 @@
     "zenMode.hideLineNumbers": false,
     "editor.codeLens": false,
     "emmet.syntaxProfiles": {
-      "javascript": "jsx"
+        "javascript": "jsx"
     },
     "bracket-pair-colorizer-2.depreciation-notice": false,
     "workbench.preferredDarkColorTheme": "Default High Contrast",
@@ -93,7 +93,7 @@
     "workbench.activityBar.visible": false,
     "editor.linkedEditing": true,
     "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
+        "javascript": "javascriptreact"
     },
     "window.zoomLevel": -1
 }
