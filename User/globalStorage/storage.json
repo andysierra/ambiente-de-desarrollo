@@ -16,21 +16,21 @@
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 30,
+            "titleBarHeight": 36,
             "activityBarWidth": 0,
             "sideBarWidth": 0,
             "statusBarHeight": 22,
-            "windowBorder": true
+            "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/Users/camil/Programacion/development-react/gif-expert-app",
-            "backupPath": "C:\\Users\\camil\\AppData\\Roaming\\Code\\Backups\\fd741066745856b248b73e26963169f7",
+            "folder": "file:///c%3A/Users/camil/Programacion/development-react/hooksApp",
+            "backupPath": "C:\\Users\\camil\\AppData\\Roaming\\Code\\Backups\\fe2d4ac17de6fedb28945b8c75390f73",
             "uiState": {
                 "mode": 0,
                 "x": 342,
-                "y": 190,
+                "y": 182,
                 "width": 1024,
                 "height": 538
             }
