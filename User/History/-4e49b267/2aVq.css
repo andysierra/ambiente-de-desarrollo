@@ -1,8 +1,0 @@
-@keyframes card-fade-in-down {
-  0%   {transform: translateY(-40px);}
-  100% {transform: translateY(0px);}
-}
-
-.fade-in-down {
-  animation: card-fade-in-down 1.25s ease-in;
-}

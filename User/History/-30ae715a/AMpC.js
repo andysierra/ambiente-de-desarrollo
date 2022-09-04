@@ -1,1 +1,0 @@
-document.querySelectorAll('.container > div').forEach(box=>addEventListener('click', e=>console.log('era error de codepen')));
