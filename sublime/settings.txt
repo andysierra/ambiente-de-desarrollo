@@ -1,0 +1,10 @@
+{
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_size": 13,
+	"open_files_in_new_window": true,
+	"remember_open_files": false,
+	"hot_exit": false,
+}
