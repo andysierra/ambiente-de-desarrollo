@@ -34,7 +34,6 @@
       ]
     }
   },
-  "editor.fontSize": 18,
   "workbench.editor.restoreViewState": false,
   "files.hotExit": "off",
   "terminal.integrated.lineHeight": 0.5,
@@ -77,7 +76,7 @@
   "javascript.referencesCodeLens.showOnAllFunctions": true,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.renderWhitespace": "none",
-  "editor.rulers": [],
+  "editor.rulers": [120],
   "zenMode.hideLineNumbers": false,
   "editor.codeLens": false,
   "emmet.syntaxProfiles": {
@@ -99,5 +98,15 @@
   "files.associations": {
     "*.js": "javascriptreact"
   },
-  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.fontFamily": "Fira Code Retina",
+  "workbench.editor.revealIfOpen": true,
+  "terminal.integrated.fontSize": 10,
+  "debug.console.fontSize": 10,
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "workbench.statusBar.visible": false
 }
