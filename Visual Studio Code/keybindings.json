@@ -27,7 +27,7 @@
     "command": "-saveAll"
   },
   {
-    "key": "ctrl+shift+g",
+    "key": "alt+2",
     "command": "workbench.view.extension.gradleContainerView"
   },
   {
@@ -84,11 +84,6 @@
   },
   {
     "key": "ctrl+shift+e",
-    "command": "workbench.view.explorer",
-    "when": "viewContainer.workbench.view.explorer.enabled"
-  },
-  {
-    "key": "ctrl+shift+e",
     "command": "-workbench.view.explorer",
     "when": "viewContainer.workbench.view.explorer.enabled"
   },
@@ -98,11 +93,40 @@
     "when": "inFilesPicker && inQuickOpen"
   },
   {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "alt+2",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "-workbench.action.toggleAuxiliaryBar"
+  },
+  {
     "key": "alt+1",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "ctrl+b",
-    "command": "-workbench.action.toggleSidebarVisibility"
+    "key": "ctrl+shift+oem_3",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
   },
+  {
+    "key": "alt+3",
+    "command": "-workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "alt+3",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.view.explorer"
+  }
 ]

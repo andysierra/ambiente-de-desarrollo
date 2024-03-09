@@ -1,6 +1,37 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "window.menuBarVisibility": "classic",
+  // andysierradev
+  "window.restoreWindows": "none",
+  "window.restoreFolders": "none",
+  "workbench.colorCustomizations": {
+    // Activity Bar background color
+    "activityBar.background": "#2C2C2C",
+    // Tab active background color
+    "tab.activeBackground": "#333333",
+    // Editor background color
+    "editor.background": "#1E1E1E",
+    // Text color in the editor
+    "editor.foreground": "#CCCCCC",
+    // Selection color
+    "editor.selectionBackground": "#555555",
+    // Terminal background color
+    "terminal.background": "#1E1E1E",
+    // Terminal text color
+    "terminal.foreground": "#CCCCCC",
+    // Color for INFO messages in the terminal
+    "terminal.ansiBrightBlack": "#00FF00",
+    // Color for WARN messages in the terminal
+    "terminal.ansiBrightYellow": "#FFFF00",
+    // Color for ERROR messages in the terminal
+    "terminal.ansiBrightRed": "#FF0000",
+    // Git decoration color for added lines
+    "gitDecoration.addedResourceForeground": "#66FF66",
+    // Git decoration color for modified lines
+    "gitDecoration.modifiedResourceForeground": "#FFCC00",
+    // Git decoration color for deleted lines
+    "gitDecoration.deletedResourceForeground": "#FF6666",
+    // ...
+    // Add any other color customizations you prefer
+},
   "workbench.startupEditor": "none",
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingQuotes": "always",
@@ -8,7 +39,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
   "vsicons.dontShowNewVersionMessage": true,
-  "php.validate.executablePath": "C:/xampp/php/php.exe",
   "php.suggest.basic": false,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -34,6 +64,7 @@
       ]
     }
   },
+  "editor.fontSize": 18,
   "workbench.editor.restoreViewState": false,
   "files.hotExit": "off",
   "terminal.integrated.lineHeight": 0.5,
@@ -56,7 +87,7 @@
   "editor.detectIndentation": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.editor.enablePreview": true,
-  "python.languageServer": "Microsoft",
+  "python.languageServer": "Default",
   "workbench.tree.indent": 12,
   "editor.renderLineHighlight": "all",
   "workbench.colorCustomizations": {
@@ -76,7 +107,7 @@
   "javascript.referencesCodeLens.showOnAllFunctions": true,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.renderWhitespace": "none",
-  "editor.rulers": [120],
+  "editor.rulers": [],
   "zenMode.hideLineNumbers": false,
   "editor.codeLens": false,
   "emmet.syntaxProfiles": {
@@ -89,7 +120,6 @@
   "workbench.preferredDarkColorTheme": "Default High Contrast",
   "workbench.colorTheme": "Default High Contrast",
   "redhat.telemetry.enabled": false,
-  "workbench.activityBar.visible": false,
   "editor.linkedEditing": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -99,14 +129,8 @@
     "*.js": "javascriptreact"
   },
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
-  "editor.fontFamily": "Fira Code Retina",
-  "workbench.editor.revealIfOpen": true,
-  "terminal.integrated.fontSize": 10,
-  "debug.console.fontSize": 10,
-  "editor.gotoLocation.multipleDeclarations": "goto",
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.gotoLocation.multipleImplementations": "goto",
-  "editor.gotoLocation.multipleReferences": "goto",
-  "editor.gotoLocation.multipleTypeDefinitions": "goto",
-  "workbench.statusBar.visible": false
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.guides.indentation": false,
+  "terminal.integrated.fontSize": 12,
+  "workbench.activityBar.location": "top"
 }
