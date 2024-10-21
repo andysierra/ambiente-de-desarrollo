@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Settings component="StartMenu" version="4.4.170">
+<Settings component="StartMenu" version="4.4.191">
 	<MenuStyle value="Classic2"/>
 	<RecentPrograms value="None"/>
 	<StartScreenShortcut value="0"/>
 	<LargeIconSize value="25"/>
 	<SkinC2 value="Windows XP Luna"/>
-	<SkinVariationC2 value="Olive green"/>
+	<SkinVariationC2 value="Silver"/>
 	<SkinOptionsC2>
 		<Line>SMALL_ICONS=0</Line>
 		<Line>LARGE_FONT=0</Line>
@@ -14,8 +14,8 @@
 		<Line>USER_NAME=0</Line>
 		<Line>CENTER_NAME=0</Line>
 	</SkinOptionsC2>
-	<EnableStartButton value="1"/>
-	<StartButtonType value="CustomButton"/>
+	<EnableStartButton value="0"/>
+	<StartButtonType value="AeroButton"/>
 	<StartButtonPath value="%USERPROFILE%\OneDrive\Imágenes\MetroStart_StraightOn.png"/>
 	<StartButtonSize value="40"/>
 	<StartButtonAlign value="1"/>
@@ -26,7 +26,7 @@
 	<TaskbarTextColor value="16777215"/>
 	<SkipMetro value="1"/>
 	<MenuItems2>
-		<Line>Items=COLUMN_PADDING,ProgramsMenu,SearchBoxItem,COLUMN_BREAK,FavoritesItem,UserFilesItem,UserDocumentsItem,UserPicturesItem,CustomItem,CustomItem9,CustomItem3,CustomItem4,CustomItem5,CustomItem8,CustomItem6,SEPARATOR,ComputerItem,SEPARATOR,CustomItem2,CustomItem10,CustomItem7,COLUMN_PADDING,RunItem,SEPARATOR,ShutdownBoxItem</Line>
+		<Line>Items=COLUMN_PADDING,ProgramsMenu,SearchBoxItem,COLUMN_BREAK,FavoritesItem,UserFilesItem,UserDocumentsItem,UserPicturesItem,CustomItem,CustomItem9,CustomItem4,CustomItem5,CustomItem8,CustomItem6,SEPARATOR,ComputerItem,SEPARATOR,CustomItem10,CustomItem7,COLUMN_PADDING,RunItem,SEPARATOR,ShutdownBoxItem</Line>
 		<Line>ProgramsMenu.Items=AppsMenu</Line>
 		<Line>ProgramsMenu.Command=programs</Line>
 		<Line>ProgramsMenu.Label=$Menu.Programs</Line>
@@ -44,6 +44,7 @@
 		<Line>UserFilesItem.Command=user_files</Line>
 		<Line>UserFilesItem.Label=Andysierra</Line>
 		<Line>UserFilesItem.Tip=$Menu.UserFilesTip</Line>
+		<Line>UserFilesItem.Icon=shell32.dll, 269</Line>
 		<Line>UserDocumentsItem.Link=G:\Mi unidad\Mis Documentos</Line>
 		<Line>UserDocumentsItem.Label=Mis Documentos</Line>
 		<Line>UserDocumentsItem.Tip=$Menu.UserDocumentsTip</Line>
@@ -60,21 +61,17 @@
 		<Line>CustomItem9.Link=G:\Mi unidad\UD</Line>
 		<Line>CustomItem9.Label=UD</Line>
 		<Line>CustomItem9.Icon=shell32.dll, 42</Line>
-		<Line>CustomItem3.Link=G:\Mi unidad\Trabajo</Line>
-		<Line>CustomItem3.Label=Trabajo</Line>
-		<Line>CustomItem3.Icon=shell32.dll, 193</Line>
 		<Line>CustomItem4.Link=G:\Mi unidad\Mis Proyectos</Line>
 		<Line>CustomItem4.Label=Mis Proyectos</Line>
 		<Line>CustomItem4.Icon=shell32.dll, 239</Line>
-		<Line>CustomItem5.Link=%USERPROFILE%\Programacion</Line>
-		<Line>CustomItem5.Label=Programación</Line>
-		<Line>CustomItem8.Link=%USERPROFILE%\Videos</Line>
-		<Line>CustomItem8.Label=Videos</Line>
+		<Line>CustomItem5.Link=%USERPROFILE%\dev</Line>
+		<Line>CustomItem5.Label=Dev</Line>
+		<Line>CustomItem8.Link=G:\Mi unidad\Mis Videos</Line>
+		<Line>CustomItem8.Label=Mis Videos</Line>
+		<Line>CustomItem8.Icon=shell32.dll, 238</Line>
 		<Line>CustomItem6.Link=%USERPROFILE%\Downloads</Line>
 		<Line>CustomItem6.Label=Descargas</Line>
 		<Line>ComputerItem.Command=computer</Line>
-		<Line>CustomItem2.Link=%USERPROFILE%\Links\Trabajo</Line>
-		<Line>CustomItem2.Label=Trabajo</Line>
 		<Line>CustomItem10.Link=%USERPROFILE%\Links\Dev tools</Line>
 		<Line>CustomItem10.Label=Dev tools</Line>
 		<Line>RunItem.Command=run</Line>
