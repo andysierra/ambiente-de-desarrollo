@@ -1,37 +1,6 @@
 {
-  // andysierradev
-  "window.restoreWindows": "none",
-  "window.restoreFolders": "none",
-  "workbench.colorCustomizations": {
-    // Activity Bar background color
-    "activityBar.background": "#2C2C2C",
-    // Tab active background color
-    "tab.activeBackground": "#333333",
-    // Editor background color
-    "editor.background": "#1E1E1E",
-    // Text color in the editor
-    "editor.foreground": "#CCCCCC",
-    // Selection color
-    "editor.selectionBackground": "#555555",
-    // Terminal background color
-    "terminal.background": "#1E1E1E",
-    // Terminal text color
-    "terminal.foreground": "#CCCCCC",
-    // Color for INFO messages in the terminal
-    "terminal.ansiBrightBlack": "#00FF00",
-    // Color for WARN messages in the terminal
-    "terminal.ansiBrightYellow": "#FFFF00",
-    // Color for ERROR messages in the terminal
-    "terminal.ansiBrightRed": "#FF0000",
-    // Git decoration color for added lines
-    "gitDecoration.addedResourceForeground": "#66FF66",
-    // Git decoration color for modified lines
-    "gitDecoration.modifiedResourceForeground": "#FFCC00",
-    // Git decoration color for deleted lines
-    "gitDecoration.deletedResourceForeground": "#FF6666",
-    // ...
-    // Add any other color customizations you prefer
-},
+  "workbench.list.openMode": "doubleClick",
+  "editor.wordWrap": "on",
   "workbench.startupEditor": "none",
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingQuotes": "always",
@@ -64,19 +33,18 @@
       ]
     }
   },
-  "editor.fontSize": 18,
+  "editor.fontSize": 15,
   "workbench.editor.restoreViewState": false,
   "files.hotExit": "off",
   "terminal.integrated.lineHeight": 0.5,
   "terminal.integrated.cursorStyle": "line",
-  "explorer.compactFolders": false,
   "task.problemMatchers.neverPrompt": {
     "npm": true
   },
   "kite.showWelcomeNotificationOnStartup": false,
   "liveServer.settings.donotVerifyTags": true,
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -86,13 +54,15 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.detectIndentation": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreview": false,
   "python.languageServer": "Default",
   "workbench.tree.indent": 12,
   "editor.renderLineHighlight": "all",
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#00000000",
-    "editor.lineHighlightBorder": "#999999"
+    "editor.lineHighlightBorder": "#999999",
+    "editorWarning.foreground": "#5a5a5a73",
+    "editorWarning.border": "#5a5a5a00"
   },
   "autoHide.autoHidePanel": false,
   "autoHide.panelDelay": 1,
@@ -131,6 +101,28 @@
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "workbench.iconTheme": "material-icon-theme",
   "editor.guides.indentation": false,
+  "editor.semanticTokenColorCustomizations": {},
+  "debug.console.fontSize": 12,
+  "terminal.integrated.scrollback": 1000000,
+  "terminal.integrated.persistentSessionScrollback": 100000,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.accessibilitySupport": "off",
+  "workbench.activityBar.location": "top",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "workbench.settings.applyToAllProfiles": [
+    "workbench.list.openMode"
+  ],
+  "explorer.compactFolders": false,
+  "jupyter.askForKernelRestart": false,
+  "remote.SSH.remotePlatform": {
+    "ec2-35-153-126-1.compute-1.amazonaws.com": "linux"
+  },
   "terminal.integrated.fontSize": 12,
-  "workbench.activityBar.location": "top"
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }
