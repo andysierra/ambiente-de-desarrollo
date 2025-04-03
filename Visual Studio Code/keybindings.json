@@ -139,5 +139,15 @@
   {
     "key": "shift+f10",
     "command": "java.debug.runJavaFile"
+  },
+  {
+    "key": "alt+f1",
+    "command": "workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "-workbench.panel.chat",
+    "when": "workbench.panel.chat.view.copilot.active"
   }
 ]
